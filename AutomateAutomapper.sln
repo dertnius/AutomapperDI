@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateAutomapper.Infraestructure", "AutomateAutomapper\AutomateAutomapper.Infraestructure.csproj", "{AEB77C8F-8766-4D98-919F-4C7D4FB002DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateAutomapper.Data", "AutomateAutomapper.Data\AutomateAutomapper.Data.csproj", "{0BE295AF-AF99-466A-AFB7-79FB37C61EE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateAutomapper.DataAccess", "AutomateAutomapper.DataAccess\AutomateAutomapper.DataAccess.csproj", "{62DA4177-A6FB-4FF9-9FCD-3AD57AA3C3EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomateAutomapper.Tests", "AutomateAutomapper.Tests\AutomateAutomapper.Tests.csproj", "{624C9B62-2458-40CC-8F10-0C3643B5AD29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB77C8F-8766-4D98-919F-4C7D4FB002DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB77C8F-8766-4D98-919F-4C7D4FB002DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB77C8F-8766-4D98-919F-4C7D4FB002DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB77C8F-8766-4D98-919F-4C7D4FB002DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE295AF-AF99-466A-AFB7-79FB37C61EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE295AF-AF99-466A-AFB7-79FB37C61EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE295AF-AF99-466A-AFB7-79FB37C61EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE295AF-AF99-466A-AFB7-79FB37C61EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DA4177-A6FB-4FF9-9FCD-3AD57AA3C3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DA4177-A6FB-4FF9-9FCD-3AD57AA3C3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DA4177-A6FB-4FF9-9FCD-3AD57AA3C3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DA4177-A6FB-4FF9-9FCD-3AD57AA3C3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624C9B62-2458-40CC-8F10-0C3643B5AD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624C9B62-2458-40CC-8F10-0C3643B5AD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624C9B62-2458-40CC-8F10-0C3643B5AD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624C9B62-2458-40CC-8F10-0C3643B5AD29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
