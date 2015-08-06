@@ -47,7 +47,7 @@ namespace AutomateAutomapper
             public static void RegisterAutomapperProfiles(IUnityContainer container)
             {
 
-
+                //Scanning profiles 
                 var autoMapperProfileTypes = AllClasses.FromAssemblies(AppDomain.CurrentDomain.GetAssemblies())
                            .Where(type => type != typeof(Profile) &&
                                                   typeof(Profile).IsAssignableFrom(type));
